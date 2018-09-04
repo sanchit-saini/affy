@@ -31,7 +31,7 @@ importFrom(Biobase, addVigs2WinMenu, assayDataElementReplace,
 
 importMethodsFrom(BiocGenerics, normalize)
 
-importFrom(BiocInstaller, biocinstallRepos)
+importFrom(BiocManager, repositories)
 
 importFrom(graphics, abline, axis, barplot, frame, hist,
            lines, matplot, mtext, pairs, par, plot, points,

@@ -78,7 +78,7 @@ cdfFromBioC <- function(cdfname, lib=.libPaths()[1], verbose=TRUE) {
                 return(list("Bioconductor - lib does not exist"))
             }
         }
-        
+
         if (file.access(lib,mode=2) < 0) {
             if (verbose) {
                 print(paste("You do not have write access to",lib,
@@ -88,7 +88,7 @@ cdfFromBioC <- function(cdfname, lib=.libPaths()[1], verbose=TRUE) {
             }
         }
 
-        biocContribUrl <- sapply(biocinstallRepos(), contrib.url)
+        biocContribUrl <- sapply(repositories(), contrib.url)
         biocPkgs <- available.packages(biocContribUrl)
         if (! cdfname %in% biocPkgs[, "Package"]) {
             if (verbose)
@@ -98,7 +98,7 @@ cdfFromBioC <- function(cdfname, lib=.libPaths()[1], verbose=TRUE) {
             return(list(paste("Bioconductor -",cdfname,"not available")))
         } else {
             install.packages(cdfname, lib=lib,
-                             repos=biocinstallRepos(),
+                             repos=repositories(),
                              dependencies=c("Depends","Imports"))
             ## no way to know if we succeeded or not, with install.packages
             ##if (verbose)
