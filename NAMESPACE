@@ -58,7 +58,7 @@ exportPattern("^[^\\.]")
 
 export(.setAffyOptions)
 
-exportMethods(show, boxplot, image, exprs, featureNames, geneNames, sampleNames,
+exportMethods(show, boxplot, image, exprs, "exprs<-", featureNames, geneNames, sampleNames,
               se.exprs, updateObject)
 
 exportClasses("AffyBatch")
