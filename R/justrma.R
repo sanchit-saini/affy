@@ -87,7 +87,8 @@ just.rma <- function(..., filenames=character(0),
     {
       description <- new("MIAME")
       description@preprocessing$filenames <- filenames
-      description@preprocessing$affyversion <- library(help=affy)$info[[2]][[2]][2]
+      description@preprocessing$affyversion <-
+          as.character(packageVersion("affy"))
     }
   ## read the first file to see what we have
   ##if (verbose) cat(1, "reading",filenames[[1]],"...")
