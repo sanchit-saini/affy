@@ -77,7 +77,7 @@ expresso <- function(afbatch,
     }
 
   if (widget) {
-    require(tkWidgets) || stop("library tkWidgets could not be found !")
+    requireNamespace("tkWidgets")
   }
 
   nchips <- length(afbatch)
