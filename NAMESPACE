@@ -62,3 +62,11 @@ exportMethods(show, boxplot, image, exprs, "exprs<-", featureNames, geneNames, s
               se.exprs, updateObject)
 
 exportClasses("AffyBatch")
+
+## S3 methods
+
+S3method(plot, ProbeSet)
+S3method("$", AffyBatch)
+S3method(barplot, ProbeSet)
+S3method(merge, AffyBatch)
+S3method(pairs, AffyBatch)
