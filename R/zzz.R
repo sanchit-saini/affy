@@ -90,16 +90,15 @@
   ## ---
 }
 
+.affyInternalEnv <- NULL
+
 .onLoad <- function(libname, pkgname) {
    
 #  where <- match(paste("package:", pkgname, sep=""), search())
   all.affy <- ls(environment(sys.function()))
 
    ##a place to store some variables that need to be accessed
-   .affyInternalEnv <- new.env(parent=emptyenv())
-
-   assign(".affyInternalEnv", .affyInternalEnv, 
-     envir=topenv(parent.frame()))
+   .affyInternalEnv <<- new.env(parent=emptyenv())
 
   .initNormalize(all.affy, .affyInternalEnv)
   .initExpression(all.affy, .affyInternalEnv)
