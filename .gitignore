@@ -2,13 +2,13 @@
 .Rhistory
 .RData
 .Ruserdata
-config.status
 src/*.o
 src/*.so
 src/*.dll
-src/Makevars
+src/Makevars*
 src/symbols.rds
 affy.Rproj
 ..Rcheck/
 *.log
 *.cache
+config.status
