@@ -1,3 +1,5 @@
 debian
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^doc$
+^Meta$
