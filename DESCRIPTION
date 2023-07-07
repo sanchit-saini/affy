@@ -10,7 +10,7 @@ Author: Rafael A. Irizarry <rafa@ds.dfci.harvard.edu>, Laurent Gautier
         Halling <challing@agilixcorp.com>, Wolfgang Huber, James
         MacDonald <jmacdon@u.washington.edu>, Benjamin I. P. Rubinstein,
         Christopher Workman <workman@cbs.dtu.dk>, John Zhang
-Maintainer: Rafael A. Irizarry <rafa@ds.dfci.harvard.edu>
+Maintainer: Robert D. Shear <rshear@ds.dfci.harvard.edu>
 Depends: R (>= 2.8.0), BiocGenerics (>= 0.1.12), Biobase (>= 2.5.5)
 Imports: affyio (>= 1.13.3),
         BiocManager, graphics, grDevices, methods, preprocessCore,
