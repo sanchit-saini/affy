@@ -11,7 +11,7 @@ Author: Rafael A. Irizarry <rafa@ds.dfci.harvard.edu>, Laurent Gautier
         MacDonald <jmacdon@u.washington.edu>, Benjamin I. P. Rubinstein,
         Christopher Workman <workman@cbs.dtu.dk>, John Zhang
 Maintainer: Robert D. Shear <rshear@ds.dfci.harvard.edu>
-URL: https://github.com/rafalab/affy
+URL: https://bioconductor.org/packages/affy
 BugReports: https://github.com/rafalab/affy/issues
 Depends: R (>= 2.8.0), BiocGenerics (>= 0.1.12), Biobase (>= 2.5.5)
 Imports: affyio (>= 1.13.3),
