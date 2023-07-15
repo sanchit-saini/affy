@@ -8,7 +8,7 @@
 .Ruserdata
 /Meta/
 /doc/
-affy.Rproj
+.Rproj
 config.status
 src/*.dll
 src/*.o

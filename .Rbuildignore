@@ -3,3 +3,7 @@ debian
 ^\.Rproj\.user$
 ^doc$
 ^Meta$
+.RData
+.Rhistory
+.gitignore
+ .git
