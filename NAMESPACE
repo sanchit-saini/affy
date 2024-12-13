@@ -4,7 +4,6 @@ importFrom(BiocGenerics, updateObject, colnames, boxplot, image)
 
 import(affyio)
 
-import(zlibbioc)
 
 importClassesFrom(Biobase, AnnotatedDataFrame, AssayData, eSet, MIAME,
                   Versioned, VersionedBiobase, Versions)

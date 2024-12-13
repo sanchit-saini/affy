@@ -16,7 +16,7 @@ BugReports: https://github.com/rafalab/affy/issues
 Depends: R (>= 2.8.0), BiocGenerics (>= 0.1.12), Biobase (>= 2.5.5)
 Imports: affyio (>= 1.13.3),
         BiocManager, graphics, grDevices, methods, preprocessCore,
-        stats, utils, zlibbioc
+        stats, utils
 Suggests: tkWidgets (>= 1.19.0), affydata, widgetTools, hgu95av2cdf
 LinkingTo: preprocessCore
 Description: The package contains functions for exploratory
